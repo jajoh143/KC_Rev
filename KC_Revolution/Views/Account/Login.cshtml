@@ -1,0 +1,63 @@
+﻿@using System.Collections.Generic
+@using System.Linq
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http.Authentication
+@model LoginViewModel
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "_LoginLayout";
+}
+<div class="mdl-grid" style="margin-top:100px;">
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--2dp" style="padding:15px;">
+        <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+            <div asp-validation-summary="All" class="text-danger">
+                <div class="mdl-card_title">
+                    <h2 class="mdl-card__title-text">Login</h2>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                    <div class="mdl-textfield mdl-js-textfield">
+                        <input id="login_email" asp-for="Email" class="mdl-textfield__input" />
+                        <label for="login_email" asp-for="Email" class="mdl-textfield__label"></label>
+                        <span asp-validation-for="Email" class="text-danger mdl-textfield_error"></span>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                    <div class="mdl-textfield mdl-js-textfield">
+                        <input id="login_password" asp-for="Password" class="mdl-textfield__input" />
+                        <label for="login_password" asp-for="Password" class="mdl-textfield__label"></label>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                    <div class="checkbox">
+                        <label asp-for="RememberMe">
+                            <input asp-for="RememberMe" />
+                            @Html.DisplayNameFor(m => m.RememberMe)
+                        </label>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                    <div class="form-group">
+                        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Log in</button>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                    <p>
+                        <a asp-action="ForgotPassword">Forgot your password?</a>
+                    </p>
+                    <p>
+                        <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">Register as a new user?</a>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="mdl-layout-spacer"></div>
+</div>
+
+
+
+

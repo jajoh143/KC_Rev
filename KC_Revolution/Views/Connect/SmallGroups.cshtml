@@ -1,0 +1,51 @@
+﻿@model DOTNETWEB_KCREVOLUTION.Areas.Connect.Models.ViewModels.SmallGroupsViewModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Small Groups";
+}
+
+<div id="page-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <img style="height: 450px; margin: 25px auto;" class="img-responsive" src="@Url.Content("~/images/DSC_0111.jpg")" />
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sub_banner" style="background-color: #d9d1b3;">
+        <div class="row" style="margin: 15px 0 15px;">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                <p class="text-center">
+                    <i style="font-size: 6rem;" class="fa fa-users" aria-hidden="true"></i>
+                    <h3 class="text-center">Small Groups</h3>
+                <p class="text-center">
+                    <a asp-area="Connect" asp-controller="Connect" asp-action="SmallGroups">Connect With our Small Groups</a>
+                </p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row equal_height">
+            @foreach (var small_group in Model.SmallGroups)
+            {
+                <div class="col-md-4">
+                    <div class="sermon_pod" style="min-height:600px;">
+                        @if(small_group.PromoImg != null && small_group.PromoImg.Length > 0)
+                        {
+                        <div class="img_pod">
+                            <img style="margin:0 auto;" class="img_promo img-responsive" src="@small_group.PromoImg" />
+                        </div>
+                        }
+                        <div style="padding:15px;">
+                            <h5>@small_group.EventTimes</h5>
+                            <h4>@small_group.Title</h4>
+                            <p>@Html.Raw(small_group.Description)</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

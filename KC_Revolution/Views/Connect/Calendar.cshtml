@@ -1,0 +1,50 @@
+﻿@model DOTNETWEB_KCREVOLUTION.Areas.Connect.Models.ViewModels.CalendarViewModel
+@{
+    ViewData["Title"] = "Calendar";
+    Layout = "_Layout";
+}
+<div id="page-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <img style="height: 350px; margin: 25px auto;" class="img-responsive" src="@Url.Content("~/images/community_header.jpg")" />
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid sub_banner" style="background-color: #d9d1b3;">
+        <div class="row" style="margin: 15px 0 15px;">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                <p class="text-center">
+                    <i style="font-size: 6rem;" class="fa fa-calendar" aria-hidden="true"></i>
+                    <h3 class="text-center">Calendar</h3>
+                <p class="text-center">
+                    <a href="https://maps.google.com/maps?hl=en&q=500+W.+40th+St.+KCMO+64111&ie=UTF-8&hq=&hnear=0x87c0efdac1fe6935:0xf8487948118639b4,500+W+40th+St,+Kansas+City,+MO+64111&gl=us&ei=YKp0UJurDqTg2gWcnYGYCQ&ved=0CB4Q8gEwAA">
+                        500 W. 40th St. Kansas City, MO 6411
+                    </a>
+                </p>
+                </p>
+            </div>
+        </div>
+    </div>
+    @foreach(var row in Model.Events.GroupBy(x => x.StartDate))
+    {
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>@row.Key</h3>
+        </div>
+    </div>
+    <div class="row equal_height">
+        @foreach (var calendarEvent in row)
+        {
+            <div class="col-sm-6 col-md-4 col-md-3">
+                <div class="sermon_pod">
+                    <h3>@calendarEvent.Title</h3>
+                    <p>@(calendarEvent.StartDate == calendarEvent.EndDate ? calendarEvent.StartDate : calendarEvent.StartDate + " " + calendarEvent.EndDate)</p>
+                    <p>@(calendarEvent.StartTime != "" ? calendarEvent.StartTime : "") @(calendarEvent.EndTime != "" ? "-" + calendarEvent.EndTime : "")</p>
+                    <p>@calendarEvent.Description</p>
+                </div>
+            </div>
+        }
+    </div>
+    }
+</div>

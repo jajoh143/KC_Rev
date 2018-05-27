@@ -1,0 +1,59 @@
+﻿@model DOTNETWEB_KCREVOLUTION.Areas.Inform.Models.BlogViewModel
+@{
+    ViewData["Title"] = "Blog";
+    Layout = "_Layout";
+}
+<div id="page-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <img style="height: auto; max-height: 60vh; margin: 25px auto;" class="img-responsive" src="@Url.Content("~/images/worship.jpg")" />
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #d9d1b3;">
+        <div class="container-fluid sub_banner">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-md-offset-3">
+                    <p class="text-center">
+                        <i class="fa fa-pencil-square-o"></i>
+                    </p>
+                    <h1 class="text-center">Blog</h1>
+                </div>         
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        @{
+            var featured_blog = Model.Blogs.First();
+        }
+        <div class="featured_sermon container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>@featured_blog.Title</h3>
+                    <p class="short_description">@Html.Raw(featured_blog.LongDescription)</p>
+                    <p>@featured_blog.Body</p>
+                    <span class="author_label">By @featured_blog.FirstName @featured_blog.LastName</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Read More Posts</h2>
+            </div>
+        </div>
+        <div class="row equal_height">
+            @foreach (var blog in Model.Blogs.Where(x => x != Model.Blogs.First()).OrderBy(x => x.CreatedDate))
+            {
+                <div class="col-xs-12 col-sm-4">
+                    <div class="sermon_pod">
+                        <h5>@blog.Title</h5>
+                        <p>@Html.Raw(blog.LongDescription)</p>
+                        @Html.ActionLink("Read More", "BlogDetail", "Inform", new { id = blog.BlogId })
+                        <br/><span class="author_label">@blog.FirstName @blog.LastName</span>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

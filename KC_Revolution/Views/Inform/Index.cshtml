@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "What to Expect";
+    Layout = "_Layout";
+}
+<div id="page-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <img style="height: auto; max-height: 60vh; margin: 25px auto;" class="img-responsive" src="@Url.Content("~/images/what_to_expect_header_promo.jpg")"/>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #d9d1b3;">
+        <div class="container-fluid banner">
+            <div class="row" style="margin: 15px 0 15px;">
+                <div class="col-sm-6 col-md-4 col-md-offset-2">
+                    <p class="text-center">
+                        <i style="font-size: 6rem;" class="fa fa-book" aria-hidden="true"></i>
+                        <h3 class="text-center">Worship Series</h3>
+                        <p class="text-center">
+                            <a asp-area="Inform" asp-controller="Inform" asp-action="WorshipSeries">Browse our Past Sermons</a>
+                        </p>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <p class="text-center">
+                        <i style="font-size: 6rem;" class="fa  fa-pencil-square-o" aria-hidden="true"></i>
+                        <h3 class="text-center">Blog</h3>
+                        <p class="text-center">
+                            <a class="text-center" asp-area="Inform" asp-controller="Inform" asp-action="Blog">
+                                Read Previous Newsletters
+                            </a>
+                        </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row banner_pod">
+            <div class="col-sm-7 col-sm-offset-1" style="font-size: 1.5rem;">
+                <div class="text-left">
+                    <h3 style="font-size: 3.5rem; line-height: 1.5; font-weight: bold;">With our worship, we bring our doubts, fears, and wonder to God with one heart and voice.</h3>
+                    <p>
+                        Casual, hospitable atmosphere‚ the parking is easy, and our signs (or a friendly greeter) will point you toward the sanctuary.
+                        The pastors usually wear jeans, but you can wear whatever you want. 
+                    </p>
+                    <p>
+                        Kids are welcome in worship, though about 15-20 into our worship service, all the children are invited to go to their classes, where they sing, 
+                        learn, and grow together in age-appropriate settings. If your child would rather stay in the sanctuary with you, that's fine, too. See more about 
+                        our <a asp-area="Connect" asp-controller="Connect" asp-action="RevKids">children's programming</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="@Url.Content("~/images/DSC_0059.jpg")"/>
+            </div>
+        </div>
+        <div class="row banner_pod">
+            <div class="col-sm-4 col-sm-offset-1" style="font-size: 1.5rem;">
+                <img class="img-responsive" src="@Url.Content("~/images/DSC_0032.jpg")" />
+            </div>
+            <div class="col-sm-5 col-md-offset-1">
+                <div class="text-left">
+                    <h3 style="font-size: 3.5rem; line-height: 1.5; font-weight: bold;">Lend Us Your Ear.</h3>
+                    <p>
+                        You may want to hear what we're about before darkening our doors. Or maybe you're a regular, 
+                        but you had to miss a week or two of worship and want to catch up. Whatever the case, we hope 
+                        these sermons offer enlightenment and encouragement for your journey.Subscribe now for weekly podcasts.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row banner_pod">
+            <div class="col-sm-4 col-sm-offset-1" style="font-size: 1.5rem;">
+                <div class="text-left">
+                    <h3 style="font-size: 3.5rem; line-height: 1.5; font-weight: bold;">See What We're Saying.</h3>
+                    <p>
+                        You may want to hear what we're about before darkening our doors. Or maybe you're a regular, 
+                        but you had to miss a week or two of worship and want to catch up. Whatever the case, we hope 
+                        these sermons offer enlightenment and encouragement for your journey.Subscribe now for weekly podcasts.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-offset-1">
+                <img class="img-responsive" src="@Url.Content("~/images/DSC_0118.jpg")" />
+            </div>
+        </div>
+    </div>
+</div>

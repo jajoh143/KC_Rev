@@ -1,0 +1,89 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Engage the World";
+}
+
+<div id="page-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <img style="height: auto; max-height: 60vh; margin: 25px auto;" class="img-responsive" src="@Url.Content("~/images/DSC_0033.jpg")" />
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #d9d1b3;">
+        <div class="container-fluid sub_banner">
+            <div class="row" style="margin: 15px 0 15px;">
+                <div class="col-sm-6 col-md-4">
+                    <p class="text-center">
+                        <i style="font-size: 6rem;" class="fa fa-book" aria-hidden="true"></i>
+                        <h3 class="text-center">Community Service</h3>
+                    <p class="text-center">
+                        <a href="@Url.Action("Service", "Engage")">
+                            See Service Opportunities
+                        </a>
+                    </p>
+                    </p>
+                </div>
+                <div class=" col-sm-6 col-md-4">
+                    <p class="text-center">
+                        <i style="font-size: 6rem;" class="fa fa-credit-card" aria-hidden="true"></i>
+                        <h3 class="text-center">Tithes and Offerings</h3>
+                    <p class="text-center">
+                        <a href="https://revolutionumc.cloverdonations.com/kcrevolution/">
+                            Contribute Here
+                        </a>
+                    </p>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+                    <p class="text-center">
+                        <i style="font-size: 6rem;" class="fa  fa-pencil-square-o" aria-hidden="true"></i>
+                        <h3 class="text-center">Contact Us</h3>
+                    <p class="text-center">
+                        <a asp-controller="Engage" asp-action="Contact">Find Info and Reach Out</a>
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row banner_pod">
+            <div class="col-sm-7 col-sm-offset-1" style="font-size: 1.5rem;">
+                <div class="text-left">
+                    <h3 style="font-size: 3.5rem; line-height: 1.5; font-weight: bold;">
+                        Baby Grace
+                    </h3>
+                    <p>
+                        Did you know that famililes receiving public assistance can't use it to buy diapers? Baby Grace is a ministry supporting families
+                        with children ages 0-5 by providing them with monthly supplies of diapers, as well as clothing, toys, and other household items. Revolution
+                        hosts Baby Grace in our building on the second Saturday of every month. Volunteers help organize and package diapers, set up tables, play with
+                        children while parents shop for items, and much more.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="@Url.Content("~/images/DSC_0076.jpg")" />
+            </div>
+        </div>
+        <div class="row banner_pod">
+            <div class="col-sm-4">
+                <img class="img-responsive" src="@Url.Content("~/images/DSC_0118.jpg")" />
+            </div>
+            <div class="col-sm-7 col-sm-offset-1" style="font-size: 1.5rem;">
+                <div class="text-left">
+                    <h3 style="font-size: 3.5rem; line-height: 1.5; font-weight: bold;">
+                        Harvesters
+                    </h3>
+                    <p>
+                        Please join us to serve at Harvesters for a couple hours.  
+                        We will have childcare available for those who need it.
+                        Thank you!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
