@@ -1,0 +1,57 @@
+﻿@model KC_Revolution.Data.Entities.Sermon
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit</h2>
+
+<h4>Sermon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="SermonName" class="control-label"></label>
+                <input asp-for="SermonName" class="form-control" />
+                <span asp-validation-for="SermonName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SermonDescription" class="control-label"></label>
+                <input asp-for="SermonDescription" class="form-control" />
+                <span asp-validation-for="SermonDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SermonFileLocation" class="control-label"></label>
+                <input asp-for="SermonFileLocation" class="form-control" />
+                <span asp-validation-for="SermonFileLocation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SeriesTitle" class="control-label"></label>
+                <input asp-for="SeriesTitle" class="form-control" />
+                <span asp-validation-for="SeriesTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SeriesId" class="control-label"></label>
+                <input asp-for="SeriesId" class="form-control" />
+                <span asp-validation-for="SeriesId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedDate" class="control-label"></label>
+                <input asp-for="CreatedDate" class="form-control" />
+                <span asp-validation-for="CreatedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

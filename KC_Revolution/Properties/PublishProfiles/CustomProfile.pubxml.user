@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqKpu7xG0MEWHpQdMWscxMQAAAAACAAAAAAAQZgAAAAEAACAAAAA0+f7wV0bMf7HVjl6KZWMWPSEA2ZjpOyhV8ZYT24ulfgAAAAAOgAAAAAIAACAAAADAK3ZW2gWkCEQD/AwxXNgBhb17V75IIDYA8yGydnZvCiAAAACIaxpF4AbRIHQrajKGWpLSK/pcffIWROfDYaEgWX1lCUAAAADnqQJXEO2Mt5N/lNZA/Q5H7qmEDLC9XaQZSlczBGD2yV4POzwUY4Jt8HWXPTOtYP4prvHSmpkXpeXz2QfS3tzL</EncryptedPassword>
+    <_PublishTargetUrl>ftps://mi3-wts6.a2hosting.com/httpdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>05/27/2018 17:57:32</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>05/28/2018 16:31:34</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>05/28/2018 17:26:27</publishTime>
+    </File>
+    <File Include="bundleconfig.json">
+      <publishTime>05/27/2018 17:57:32</publishTime>
+    </File>
+    <File Include="Google.Apis.Auth.dll">
+      <publishTime>05/10/2018 08:01:56</publishTime>
+    </File>
+    <File Include="Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>05/10/2018 08:01:56</publishTime>
+    </File>
+    <File Include="Google.Apis.Calendar.v3.dll">
+      <publishTime>05/21/2018 08:47:26</publishTime>
+    </File>
+    <File Include="Google.Apis.Core.dll">
+      <publishTime>05/10/2018 08:01:46</publishTime>
+    </File>
+    <File Include="Google.Apis.dll">
+      <publishTime>05/10/2018 08:01:54</publishTime>
+    </File>
+    <File Include="KC_Revolution.deps.json">
+      <publishTime>05/28/2018 19:12:11</publishTime>
+    </File>
+    <File Include="KC_Revolution.dll">
+      <publishTime>05/28/2018 18:25:45</publishTime>
+    </File>
+    <File Include="KC_Revolution.pdb">
+      <publishTime>05/28/2018 18:25:45</publishTime>
+    </File>
+    <File Include="KC_Revolution.PrecompiledViews.dll">
+      <publishTime>05/28/2018 18:25:55</publishTime>
+    </File>
+    <File Include="KC_Revolution.PrecompiledViews.pdb">
+      <publishTime>05/28/2018 18:25:55</publishTime>
+    </File>
+    <File Include="KC_Revolution.runtimeconfig.json">
+      <publishTime>05/28/2018 19:12:11</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.Extensions.dll">
+      <publishTime>05/23/2018 09:46:55</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>05/23/2018 09:46:57</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>05/23/2018 09:46:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Design.dll">
+      <publishTime>05/23/2018 09:46:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>05/23/2018 09:46:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>05/23/2018 09:46:59</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>05/23/2018 09:47:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>05/23/2018 09:47:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>05/23/2018 09:47:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>05/23/2018 09:47:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>05/23/2018 09:47:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>05/23/2018 09:47:00</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>04/02/2017 17:46:32</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>05/28/2018 19:12:11</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/4/20170423Sermon.mp3">
+      <publishTime>05/27/2018 17:57:32</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/4/20170430Sermon.mp3">
+      <publishTime>05/27/2018 17:57:32</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/5/20170507Sermon.mp3">
+      <publishTime>05/27/2018 17:57:33</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/5/20170521Sermon.mp3">
+      <publishTime>05/27/2018 17:57:33</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/6/20170604Sermon.mp3">
+      <publishTime>05/27/2018 17:57:33</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/6/20170611Sermon.mp3">
+      <publishTime>05/27/2018 17:57:33</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/6/20170618Sermon.mp3">
+      <publishTime>05/27/2018 17:57:33</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2017/7/20170730Sermon.mp3">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2018/1/20180107Name_Caller.mp3">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2018/1/20180114Distributor.mp3">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/audio/2018/1/20180121Subversive.mp3">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/css/material.min.css">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/action_header.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/community.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/community_header.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/connect_connect_header_promo.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0032.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0033.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0059.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0076.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0092.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0111.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0118.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_0127.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/header_promo_1.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/header_promo_2.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/header_promo_3.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/home_slider_1.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/nina-strehl-140734.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/photo_church_2.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/rev_logo.png">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/rev_logo_header.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/sermon_series/forgiveness.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/sermon_series/heroes.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/sermon_series/life_little_messes.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/sermon_series/my_name_is.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/sermon_series/ruth.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/what_to_expect_header_promo.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/worship.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/worship_header.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/images/worship_series_header_promo.jpg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.min.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/axios.min.js">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/codemirror.js">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/material.min.js">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/modes/css.js">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/modes/htmlmixed.js">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/modes/javascript.js">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/js/vendor/modes/xml.js">
+      <publishTime>05/20/2018 10:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/.bower.json">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/.bower.json">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/.bower.json">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>05/27/2018 17:57:34</publishTime>
+    </File>
+    <File Include="wwwroot/videos/rev_promo.mp4">
+      <publishTime>05/27/2018 17:57:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

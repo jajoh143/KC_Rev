@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    @foreach(var row in Model.Events.GroupBy(x => x.StartDate))
+    @foreach(var row in Model.Events.GroupBy(x => x.StartDateTime))
     {
     <div class="row">
         <div class="col-xs-12">
@@ -39,8 +39,8 @@
             <div class="col-sm-6 col-md-4 col-md-3">
                 <div class="sermon_pod">
                     <h3>@calendarEvent.Title</h3>
-                    <p>@(calendarEvent.StartDate == calendarEvent.EndDate ? calendarEvent.StartDate : calendarEvent.StartDate + " " + calendarEvent.EndDate)</p>
-                    <p>@(calendarEvent.StartTime != "" ? calendarEvent.StartTime : "") @(calendarEvent.EndTime != "" ? "-" + calendarEvent.EndTime : "")</p>
+                    <p>@(calendarEvent.StartDateTime.ToString() != "" ? calendarEvent.StartDateTime.ToString() : calendarEvent.StartDateTime.ToString() + " " + calendarEvent.EndDateTime.ToString())</p>
+                    <p>@(calendarEvent.EndDateTime.ToString() != "" ? calendarEvent.EndDateTime.ToString() : "") @(calendarEvent.EndDateTime.ToString() != "" ? "-" + calendarEvent.EndDateTime.ToString() : "")</p>
                     <p>@calendarEvent.Description</p>
                 </div>
             </div>

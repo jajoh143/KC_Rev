@@ -11,7 +11,7 @@
     <PackageReference Include="Google.Apis.Auth" Version="1.33.1" />
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.33.1.1230" />
     <PackageReference Include="Google.Apis.Core" Version="1.33.1" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
   </ItemGroup>

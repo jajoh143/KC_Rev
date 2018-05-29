@@ -1,16 +1,16 @@
-﻿@model DOTNETWEB_KCREVOLUTION.Areas.Inform.Models.BlogDetailViewModel
+﻿@model KC_Revolution.Data.Entities.BlogPost
 @{
-    ViewData["Title"] = Model.Blog.Title;
+    ViewData["Title"] = Model.Title;
     Layout = "_Layout";
 }
 
 
 <div class="container-fluid">
-    <h1 class="text-center page-title">@Model.Blog.Title</h1>
+    <h1 class="text-center page-title">@Model.Title</h1>
     <div class="row">
         <div class="col-sm-12 col-md-6 col-md-offset-3">
             <p style="padding: 15px;">
-                @Html.Raw(@Model.Blog.LongDescription)
+                @Html.Raw(@Model.LongDescription)
             </p>
         </div>
     </div>
@@ -21,14 +21,14 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-            @Html.Raw(Model.Blog.Body)
+            @Html.Raw(Model.Body)
         </div>
     </div>
     <div class="row">
         <div class="col-sm-4 col-sm-offset-2">
             <p style="margin: 25px 0 25px;padding: 15px;">
-                Created by @Model.Blog.FirstName @Model.Blog.LastName <br />
-                Created on @Model.Blog.CreatedDate.ToShortDateString()
+                Created by @Model.FirstName @Model.LastName <br />
+                Created on @Model.CreatedDate.ToShortDateString()
             </p>
         </div>
     </div>

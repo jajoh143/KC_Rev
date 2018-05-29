@@ -65,7 +65,7 @@ namespace KC_Revolution.Controllers
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    return RedirectToLocal(returnUrl);
+                    return RedirectToAction("Index", "Admin");
                 }
                 if (result.RequiresTwoFactor)
                 {
@@ -455,7 +455,7 @@ namespace KC_Revolution.Controllers
             }
             else
             {
-                return RedirectToAction(nameof(HomeController.Index), "Home");
+                return RedirectToAction(nameof(AdminController.Index), "Home");
             }
         }
 

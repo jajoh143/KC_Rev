@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="@Url.Content("~/css/material.min.css")" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    @RenderSection("styles", false)
+</head>
+<body>
+    <div id="app" class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+                mdl-layout--fixed-header">
+        @await Html.PartialAsync("_TopNavigation")
+        @await Html.PartialAsync("_LeftNavigation")
+        <main class="mdl-layout__content">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="@Url.Content("~/js/vendor/axios.min.js")"></script>
+    <script src="@Url.Content("~/js/vendor/material.min.js")"></script>
+    @RenderSection("scripts", false)
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿@model KC_Revolution.Data.Entities.Sermon
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Sermon</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SermonName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SermonName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SermonDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SermonDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SermonFileLocation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SermonFileLocation)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SeriesTitle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SeriesTitle)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SeriesId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SeriesId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

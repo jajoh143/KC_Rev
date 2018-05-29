@@ -1,0 +1,12 @@
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\bin\Release\netcoreapp2.0\KC_Revolution.deps.json
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\bin\Release\netcoreapp2.0\KC_Revolution.runtimeconfig.json
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\bin\Release\netcoreapp2.0\KC_Revolution.runtimeconfig.dev.json
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\bin\Release\netcoreapp2.0\KC_Revolution.dll
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\bin\Release\netcoreapp2.0\KC_Revolution.pdb
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\obj\Release\netcoreapp2.0\KC_Revolution.csproj.CoreCompileInputs.cache
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\obj\Release\netcoreapp2.0\KC_Revolution.AssemblyInfoInputs.cache
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\obj\Release\netcoreapp2.0\KC_Revolution.AssemblyInfo.cs
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\obj\Release\netcoreapp2.0\KC_Revolution.dll
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\obj\Release\netcoreapp2.0\KC_Revolution.pdb
+C:\Users\jajoh\Source\Repos\KC_Rev3\KC_Revolution\obj\Release\netcoreapp2.0\KC_Revolution.csprojAssemblyReference.cache
